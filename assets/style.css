@@ -168,6 +168,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
 .split__visual { background: var(--grad); border-radius: var(--radius-lg); padding: 40px; color: #fff; box-shadow: var(--shadow-md); }
 .split__visual .cloud-stat .val { color: var(--accent-soft); }
+/* ensure list text on the dark/green card stays white & readable */
+.split__visual .check-list li { color: #fff; }
+.split__visual .cloud-stat .label { color: #dbe6e0; }
 
 /* ----- Stats band ----- */
 .stats-band { background: var(--navy); color: #fff; }
